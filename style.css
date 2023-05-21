@@ -85,7 +85,7 @@ ul {
 }
 
 .about {
-    background: url("img/people.png") no-repeat;
+    background: url("./img/people.png") no-repeat;
     height: 600px;
     margin-bottom: 120px;
 }
