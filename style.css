@@ -17,6 +17,17 @@ ul {
     list-style: none;
 }
 
+.header {
+    z-index: 100;
+    background: #ECECEC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .header_block h2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -37,6 +48,7 @@ ul {
 }
 
 .header_left {
+    padding-right: 249px;
     display: flex;
     justify-content: space-between;
 }
@@ -85,7 +97,8 @@ ul {
 }
 
 .about {
-    background: url("./img/people.png") no-repeat;
+    margin-top: 80px;
+    background: url("./img/people.png") no-repeat center/cover;
     height: 600px;
     margin-bottom: 120px;
 }
@@ -108,6 +121,7 @@ ul {
 
 
 .about-button {
+    border: none;
     cursor: pointer;
     display: block;
     margin: 0 auto;
@@ -162,4 +176,162 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.work h2 {
+    margin: 95px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work_list img {
+    width: 370px;
+    height: 294px;
+}
+
+.work_item {
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_list a {
+    cursor: pointer;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team_item {
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_list img {
+    width: 270px;
+    height: 260px;
+}
+
+.team_list {
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+}
+
+.team_list h4, h5 {
+    text-align: center;
+    margin: 0;
+}
+
+.team_list h4 {
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team_list h5 {
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.team_list a {
+    cursor: pointer;
+}
+
+.team h2 {
+    padding-top: 190px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team_list svg {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.team_list svg path:hover {
+    fill: #2196F3;
+}
+
+.footer {
+    height: 252px;
+    background: #2F303A;
+}
+
+.footer h2 {
+    padding-left: 215px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer span {
+    color: white;
+}
+
+.footer_item {
+    padding: 0;
+}
+
+.footer_list_nav a {
+    padding-left: 215px;
+}
+
+.footer_list {
+    padding-left: 215px;
+}
+
+.footer_list a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer h2 {
+    padding-top: 58px;
+}
+
+.footer_list_nav a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
