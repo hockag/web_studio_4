@@ -1,0 +1,142 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+@import "node_modules/animate.css/animate.min.css";
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    z-index: 100;
+    background: #ECECEC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_block h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header_block span {
+    color: black;
+}
+
+.header_item {
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.header_left {
+    gap: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    width: 380px;
+}
+
+.header_list a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: black;
+}
+
+.header_list a:hover {
+    color: #2196F3;
+    transition-duration: 1s;
+}
+
+.header_right {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.header_right>a>i {
+    margin-right: 5px;
+}
+
+.header_right a {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header_right a:hover {
+    color: #2196F3;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.buttons {
+    margin-top: 165px;
+}
+
+.buttons_item {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+
+.buttons_list button {
+    width: 125px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.buttons_list button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.buttons_list a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
