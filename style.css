@@ -137,6 +137,13 @@ ul {
     background: #2196F3;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    transition-property: top, background;
+    transition-duration: 1s;
+}
+
+.about-button:hover {
+    background: #3e3e3e;
+    transform: translate(0px, 2px);
 }
 
 .about-btn {
