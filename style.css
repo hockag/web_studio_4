@@ -4,6 +4,7 @@
 }
 @import "node_modules/animate.css/animate.min.css";
 
+
 .header_block {
     display: flex;
     justify-content: space-between;
@@ -235,6 +236,11 @@ ul {
     cursor: pointer;
 }
 
+.work_list a img:hover {
+    transform: translate3d(10px, -10px, 15px);
+    transition-duration: 1s;
+}
+
 .team {
     background: #F5F4FA;
 }
@@ -309,6 +315,37 @@ ul {
     fill: #2196F3;
 }
 
+.customer h2 {
+    text-align: center;
+    padding-top: 188px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.customer_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 94px;
+}
+
+.customer_list {
+    box-sizing: border-box;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
+}
+
+.customer_list a {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 27%;
+    top: 30%;
+}
+
 .footer {
     height: 252px;
     background: #2F303A;
@@ -359,20 +396,18 @@ ul {
 
 .footer_wrapper {
     display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
 
-.footer_item_adress {
-    margin: 0;
-    padding: 0;
+.adress_item {
     display: flex;
-}
-
-.active_adress {
-    padding-left: 70px;
+    padding: 0;
+    margin: 0;
 }
 
 .active_adress h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -382,6 +417,30 @@ ul {
     color: #FFFFFF;
 }
 
-.footer_svg:hover {
+.adress_list a {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.adress_fill {
+    fill: rgba(255, 255, 255, 0.1);
+}
+
+.adress_fill:hover {
     fill: #2196F3;
+}
+
+.adress_fill-2 {
+    fill: #FFFFFF;
+}
+
+.customer h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
