@@ -339,22 +339,6 @@ ul {
     padding-bottom: 94px;
 }
 
-.customer_list {
-    box-sizing: border-box;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    cursor: pointer;
-}
-
-.customer_list a {
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 27%;
-    top: 30%;
-}
-
 .footer {
     height: 252px;
     background: #2F303A;
@@ -448,3 +432,19 @@ ul {
 .adress_list {
     padding-right: 10px;
 }
+
+.customer_list-border {
+    box-sizing:border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customer_list-border svg {
+    position: relative;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+}
+
