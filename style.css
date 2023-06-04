@@ -269,6 +269,13 @@ ul {
     background: #2196F3;
 }
 
+.team_container-svg_list-elipse svg {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
 .team_list img {
     width: 270px;
     height: 260px;
