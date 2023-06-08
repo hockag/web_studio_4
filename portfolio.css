@@ -19,7 +19,7 @@ ul {
 
 .header {
     z-index: 100;
-    background: #ECECEC;
+    background: #FFFFFF;
     position: fixed;
     top: 0;
     width: 100%;
@@ -140,3 +140,34 @@ ul {
     color: #212121;
 }
 
+.promo_list {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.promo_list img {
+    width: 100%;
+}
+
+.promo_list h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.promo_list h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
