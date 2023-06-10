@@ -223,6 +223,7 @@ ul {
 .work_list img {
     width: 370px;
     height: 294px;
+    transition-duration: 1s;
 }
 
 .work_item {
@@ -238,7 +239,6 @@ ul {
 
 .work_list a img:hover {
     transform: translate3d(10px, -10px, 15px);
-    transition-duration: 1s;
 }
 
 .team {
@@ -485,12 +485,12 @@ ul {
     border-radius: 100%;
     position: relative;
     color: #AFB1B8;
+    transition: 1s all linear;
 }
 
 .team_social a:hover {
     background: #2196F3;
     color: #FFFFFF;
-    transition: 1s all;
 }
 
 .team_social i {
