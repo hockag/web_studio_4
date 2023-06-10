@@ -455,7 +455,17 @@ ul {
     padding-right: 10px;
 }
 
-.customer_list-border {
+
+.customer_list svg {
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.customer_list a {
+    display: block;
+    position: relative;
     box-sizing:border-box;
     width: 170px;
     height: 92px;
@@ -463,10 +473,38 @@ ul {
     border-radius: 4px;
 }
 
-.customer_list-border svg {
-    position: relative;
-    transform: translate(-50% ,-50%);
-    top: 50%;
-    left: 50%;
+.customer_list a:hover, .customer_list a:hover svg path{
+    border-color:#2196F3;
+    fill: #2196F3;
 }
 
+.team_social a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    position: relative;
+    color: #AFB1B8;
+}
+
+.team_social a:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+    transition: 1s all;
+}
+
+.team_social i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 23px;
+}
+
+.team_social {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 10px;
+    margin: 16px 0 0 0;
+}
